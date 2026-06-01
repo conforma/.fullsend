@@ -29,7 +29,7 @@ repos:
     claude-skills:
         enabled: false
     cli:
-        enabled: false
+        enabled: true
     community:
         enabled: false
     config:
@@ -59,7 +59,7 @@ repos:
     knative-service:
         enabled: false
     policy:
-        enabled: false
+        enabled: true
     policy-builder:
         enabled: false
     pr-agent-settings:
