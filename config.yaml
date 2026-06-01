@@ -18,29 +18,59 @@ defaults:
         - prioritize
     max_implementation_retries: 2
     auto_merge: false
-agents:
-    - role: fullsend
-      name: ""
-      slug: ""
-    - role: triage
-      name: ""
-      slug: ""
-    - role: coder
-      name: ""
-      slug: ""
-    - role: review
-      name: ""
-      slug: ""
-    - role: retro
-      name: ""
-      slug: ""
-    - role: prioritize
-      name: ""
-      slug: ""
+agents: []
 repos:
     .fullsend:
         enabled: false
+    .github:
+        enabled: false
+    action-validate-image:
+        enabled: false
+    claude-skills:
+        enabled: false
     cli:
         enabled: false
+    community:
+        enabled: false
+    config:
+        enabled: false
+    conforma.github.io:
+        enabled: false
+    crds:
+        enabled: false
+    demos:
+        enabled: false
+    e2e-tests:
+        enabled: false
+    github-workflows:
+        enabled: false
+    go-gather:
+        enabled: false
+    golden-container:
+        enabled: false
+    golden-rpm:
+        enabled: false
+    hacks:
+        enabled: false
+    hooks:
+        enabled: false
+    infra-deployments-ci:
+        enabled: false
+    knative-service:
+        enabled: false
     policy:
+        enabled: false
+    policy-builder:
+        enabled: false
+    pr-agent-settings:
+        enabled: false
+    pr-size-label-action:
+        enabled: false
+    review-rot:
+        enabled: false
+    step-actions:
+        enabled: false
+    tekton-catalog:
+        enabled: false
+    user-guide:
         enabled: false
