@@ -19,7 +19,6 @@ defaults:
         - prioritize
     max_implementation_retries: 2
     auto_merge: false
-agents: []
 repos:
     .fullsend:
         enabled: false
@@ -75,3 +74,6 @@ repos:
         enabled: false
     user-guide:
         enabled: false
+allowed_remote_resources:
+    - https://raw.githubusercontent.com/fullsend-ai/fullsend/
+    - https://raw.githubusercontent.com/fullsend-ai/agents/
