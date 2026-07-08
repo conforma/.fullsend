@@ -35,7 +35,7 @@ repos:
     config:
         enabled: false
     conforma.github.io:
-        enabled: false
+        enabled: true
     crds:
         enabled: false
     demos:
