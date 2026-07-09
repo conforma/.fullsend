@@ -73,7 +73,7 @@ repos:
     tekton-catalog:
         enabled: false
     user-guide:
-        enabled: false
+        enabled: true
 allowed_remote_resources:
     - https://raw.githubusercontent.com/fullsend-ai/fullsend/
     - https://raw.githubusercontent.com/fullsend-ai/agents/
