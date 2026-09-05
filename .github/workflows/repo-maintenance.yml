@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout .fullsend
-        uses: actions/checkout@v6
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
 
       - name: Extract enrolled repo names from config
         id: repo-list
@@ -33,7 +33,7 @@ jobs:
           echo "names=$REPOS" >> "$GITHUB_OUTPUT"
 
       - name: Checkout upstream scripts
-        uses: actions/checkout@v6
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           repository: fullsend-ai/fullsend
           ref: v0
@@ -58,7 +58,7 @@ jobs:
 
       - name: Mint fullsend token
         id: app-token
-        uses: fullsend-ai/fullsend/.github/actions/mint-token@v0
+        uses: fullsend-ai/fullsend/.github/actions/mint-token@094191b0151e3261d65ce2b032a4586654eb44ab # v0
         with:
           role: fullsend
           repos: ${{ steps.repo-list.outputs.names }}
