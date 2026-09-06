@@ -49,7 +49,7 @@ concurrency:
 
 jobs:
   fix:
-    uses: fullsend-ai/fullsend/.github/workflows/reusable-fix.yml@094191b0151e3261d65ce2b032a4586654eb44ab # v0
+    uses: fullsend-ai/fullsend/.github/workflows/reusable-fix.yml@4665685a1d9d471a7a044908a68f00bed78caba7 # v0
     with:
       event_type: ${{ inputs.event_type }}
       source_repo: ${{ inputs.source_repo }}
