@@ -19,6 +19,9 @@ defaults:
         - prioritize
     max_implementation_retries: 2
     auto_merge: false
+agents:
+    - name: review
+      source: customized/harness/review.yaml
 repos:
     .fullsend:
         enabled: false
