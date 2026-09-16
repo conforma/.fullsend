@@ -19,6 +19,17 @@ defaults:
         - prioritize
     max_implementation_retries: 2
     auto_merge: false
+    status_notifications:
+        comment:
+            completion: on_failure
+        reaction:
+            start: enabled
+            completion: disabled
+agents:
+    - name: review
+      source: customized/harness/review.yaml
+    - name: retro
+      source: customized/harness/retro.yaml
 repos:
     .fullsend:
         enabled: false
