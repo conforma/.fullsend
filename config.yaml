@@ -28,6 +28,8 @@ defaults:
 agents:
     - name: review
       source: customized/harness/review.yaml
+    - name: retro
+      source: customized/harness/retro.yaml
 repos:
     .fullsend:
         enabled: false

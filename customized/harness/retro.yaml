@@ -1,0 +1,5 @@
+# Derived retro harness: retain upstream analysis and append the Conforma gate.
+base: https://raw.githubusercontent.com/fullsend-ai/agents/69ade99f1b61bea99aee98e604384e26ff7b45e0/harness/retro.yaml#sha256=6d858c90cc6f1c7526d2b36b8cd47df079d1332ac7184bb70dfb1587e9cb04d8
+
+skills:
+    - skills/retro-filing-policy
