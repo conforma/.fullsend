@@ -22,6 +22,9 @@ defaults:
     status_notifications:
         comment:
             completion: on_failure
+        reaction:
+            start: enabled
+            completion: disabled
 agents:
     - name: review
       source: customized/harness/review.yaml
