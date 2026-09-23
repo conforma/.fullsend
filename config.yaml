@@ -40,13 +40,13 @@ repos:
     claude-skills:
         enabled: false
     cli:
-        enabled: true
+        enabled: false
     community:
         enabled: false
     config:
         enabled: false
     conforma.github.io:
-        enabled: true
+        enabled: false
     crds:
         enabled: false
     demos:
@@ -70,7 +70,7 @@ repos:
     knative-service:
         enabled: false
     policy:
-        enabled: true
+        enabled: false
     policy-builder:
         enabled: false
     pr-agent-settings:
@@ -84,7 +84,7 @@ repos:
     tekton-catalog:
         enabled: false
     user-guide:
-        enabled: true
+        enabled: false
 allowed_remote_resources:
     - https://raw.githubusercontent.com/fullsend-ai/fullsend/
     - https://raw.githubusercontent.com/fullsend-ai/agents/
